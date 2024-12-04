@@ -44,7 +44,7 @@ def part2(inpt):
         do_instruction   =  max(inpt[0:search_upto_index+1].rfind('do()'), 0)
         dont_instruction =  inpt[0:search_upto_index+1].rfind("don't()")
         if do_instruction > dont_instruction:
-            print("DO STUFF")
+            pass
         else:
             continue
 
